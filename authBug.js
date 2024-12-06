@@ -1,0 +1,1 @@
+The Firebase SDK's `onAuthStateChanged` listener might not trigger if the user's session expires unexpectedly due to network issues or server-side changes.  This can lead to components displaying incorrect authentication states or failing silently.
